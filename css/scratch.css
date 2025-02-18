@@ -1,0 +1,71 @@
+body{
+    font-family: 'Comic Sans MS', papyrus, serif;
+    color:rgb(244, 244, 244);
+    background-color:rgb(94, 172, 240);
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0);
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+img{
+    border:5px, black, solid;
+    padding: 10px;
+    margin: 20px;
+}
+li:hover {
+    text-decoration: underline;
+    background-color:rgb(0, 0, 0);
+}
+a:hover{
+    text-decoration:overline;
+}
+.common{
+    position: Absolute;
+    border: 2px, solid, green;
+    padding: 10px;
+    Margin: 10px;
+}
+.bottom{
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    Font-style: italic;
+    background-color: rgb(3, 73, 249);
+    padding: 10px;
+    font-size: 75%;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px; 
+    text-align: center; 
+}
+.content{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+}
+.nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+.thing{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.thing2{
+    position: absolute;
+    top: 18%;
+}
